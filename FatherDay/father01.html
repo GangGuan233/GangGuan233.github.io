@@ -7,13 +7,21 @@
   </head>
   <body>
     <div class="content">
-      <button class="but" onclick="but()">显示</button>
+      <button class="btn" onclick="alertTest()">警告框</button>
+      <button class="btn" onclick="contTest()">确认框</button>
+      <button class="btn" onclick="tipsTest()">这是提示框</button>
     </div>
   </body>
   <script type="text/javascript">
-    function but() {
-      confirm("请按按钮");
-      //alert("123");
+    function alertTest() {
+      alert("这是警告框");
+    }
+    function contTest() {
+      confirm("这是确认框");
+    }
+    function tipsTest() {
+      var flag = prompt('"这是提示框" \n请输入密码', "请输入您的密码");
+      alert("输入的值为" + flag);
     }
   </script>
 </html>
