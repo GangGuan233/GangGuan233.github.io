@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <title>fateherDay</title>
+    <style type="text/css">
+      body {
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+      }
+    </style>
   </head>
   <body>
     <div class="content">
+      <div id="div1">
+        <button id="baa">李晨源点这</button>
+      </div>
       <button class="btn" onclick="alertTest()">警告框</button>
       <button class="btn" onclick="contTest()">确认框</button>
       <button class="btn" onclick="tipsTest()">这是提示框</button>
+      <button onclick="close1()">关闭窗口</button>
     </div>
   </body>
   <script type="text/javascript">
@@ -22,6 +31,9 @@
     function tipsTest() {
       var flag = prompt('"这是提示框" \n请输入密码', "请输入您的密码");
       alert("输入的值为" + flag);
+    }
+    function close1() {
+      window.close();
     }
   </script>
 </html>
