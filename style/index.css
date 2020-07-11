@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*  容器 */
+.content {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* 导航条 */
+.dtop {
+  font-size: 19px;
+  margin: auto;
+}
+/* 图片容器 */
+.cenimg {
+  width: 290px;
+  height: 134px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/* 图片 */
+.cenimg img {
+  margin: 0px;
+}
+/* 输入框 容器*/
+.tent {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 240px;
+  height: 38px;
+  border: 2px solid rgba(11, 131, 230, 0.6);
+  border-radius: 10px;
+}
+.tent:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+/* 按钮 */
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgba(11, 131, 230, 0.6);
+}
+.btn:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+/* 文字 */
+.spa {
+  font-size: 19px;
+}
