@@ -1,4 +1,4 @@
-varobj;
+var obj;
 var href;
 function btn() {
     var question = document.getElementById("iptText").value;
